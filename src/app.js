@@ -66,10 +66,8 @@ const buildPlayers = (players, type) => {
         <div class="name">${players.name}</div>
         <div class="strength">${players.strength}</div>
       </div>`;
-        // returning each innerHTML to frag
         return htmlFragment;
       });
-      // Joining all the elements in frag into string
       fragment = char.join(" ");
     } else {
       // creating a innerHTML array of each player
@@ -84,10 +82,8 @@ const buildPlayers = (players, type) => {
         <div class="name">${players.name}</div>
         <div class="strength">${players.strength}</div>
       </div>`;
-        // returning each innerHTML to frag
         return htmlFragment;
       });
-      // Joining all the elements in frag into string
       fragment = char.join(" ");
     }
     return fragment;
